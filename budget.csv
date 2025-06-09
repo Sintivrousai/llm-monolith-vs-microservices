@@ -1,0 +1,8 @@
+;Price per 1,000 input tokens;Price per 1,000 output tokens;Expected input tokens;Expected output tokens;Total amount
+Claude-Sonnet;$0.003;$0.015;1000000;2000000;$33
+;;;;;
+;Price/hour;Expected hours;Total amount;;
+Devstral(g5.xlarge);$1.19;30;35,7;;
+;;;;;
+;;;;;
+Σύνολο;$68,7;;;;
