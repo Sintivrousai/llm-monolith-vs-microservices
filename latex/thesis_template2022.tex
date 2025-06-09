@@ -33,6 +33,11 @@
 %package to activate XeTeX font manager
 \usepackage{fontspec}
 
+%package to display tables
+\usepackage{tabularx}
+
+\usepackage{float}
+
 % DOCUMENT LAYOUT
 \usepackage{geometry} 
 \geometry{a4paper,textwidth=150mm,textheight=220mm,marginparsep=4pt}
@@ -151,17 +156,11 @@
 
 \chapter{Βιβλιογραφική Επισκόπηση}
 
-\section{Εισαγωγικές έννοιες}
+\section{Εισαγωγη στα Μεγάλα Γλωσσικά Μοντέλα}
 \input{thesis_04_01_literature_review}
 
-\section{Συνεισφορά LLMs στην παραγωγή κώδικα}
+\section{Εισαγωγή στις Αρχιτεκτονικές Λογισμικού}
 \input{thesis_04_02_llm_code_generation}
-
-\section{Ανάλυση των LLMs που θα χρησιμοποιηθούν}
-\input{thesis_04_03_used_llms}
-
-\section{Σύγκριση των LLMs για Κάθε Αρχιτεκτονική}
-\input{thesis_04_04_llm_comparison}
 
 \chapter{Πρακτικό Μέρος}
 
