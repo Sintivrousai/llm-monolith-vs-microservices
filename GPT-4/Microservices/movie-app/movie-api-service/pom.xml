@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <groupId>com.example</groupId>
+        <artifactId>movie-app</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>movie-api-service</artifactId>
+
+    <dependencies>
+        <!-- Spring Boot για REST API + CLI -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- Jackson (σε περίπτωση που θες να κάνεις parsing JsonNode ή ObjectMapper) -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+
+        <!-- Optional: Για εργασία με JSON πιο εύκολα -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+        </dependency>
+
+        <!-- Optional: Για CLI input, αν θες πιο σύγχρονα εργαλεία αντί για Scanner -->
+        <!-- <dependency>
+            <groupId>info.picocli</groupId>
+            <artifactId>picocli</artifactId>
+            <version>4.7.0</version>
+        </dependency> -->
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- Για να μπορείς να τρέχεις το service με `mvn spring-boot:run` -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

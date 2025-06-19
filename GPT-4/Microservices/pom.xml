@@ -1,0 +1,11 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>movie-app</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <modules>
+    <module>movie-search-service</module>
+    <module>movie-api-service</module>
+  </modules>
+</project>
