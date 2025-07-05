@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+imdb:
+  api:
+    base-url: https://imdb8.p.rapidapi.com
+    key: 731ab3ce06msh395acef29479e1fp192013jsn18d94ddc681b
+    host: imdb8.p.rapidapi.com
+
+logging:
+  level:
+    com.example.moviesearch: DEBUG
+    org.springframework.web.reactive.function.client: DEBUG
+
+spring:
+  application:
+    name: movie-search-api

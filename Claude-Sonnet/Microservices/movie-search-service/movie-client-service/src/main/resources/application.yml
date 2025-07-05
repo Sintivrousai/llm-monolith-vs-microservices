@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: movie-client-service
+
+movie:
+  search:
+    service:
+      url: http://localhost:8081
+
+logging:
+  level:
+    com.movieapp: INFO
