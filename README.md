@@ -11,8 +11,7 @@ Each model created a REST API application in Java, and the quality of the genera
 
 ## ⚙️ Technologies
 - Java / Spring Boot  
-- REST APIs  
-- Docker  
+- REST APIs   
 - SonarQube  
 - GPT-4, Claude Sonnet, Gemini  
 
