@@ -1,15 +1,15 @@
-# Ανάπτυξη Εφαρμογών με Language Models  
-### Συγκριτική Μελέτη Μονολιθικής και Microservices Αρχιτεκτονικής
+# Application Development with Language Models
+### Comparative Study of Monolithic vs. Microservices Architecture
 
 ---
 
-## 📘 Περίληψη
-Η εργασία συγκρίνει τη χρήση Μεγάλων Γλωσσικών Μοντέλων (LLMs) — **GPT-4**, **Claude Sonnet**, και **Gemini** — για αυτόματη ανάπτυξη λογισμικού σε δύο αρχιτεκτονικές: **μονολιθική** και **microservices**.  
-Κάθε μοντέλο δημιούργησε μια REST API εφαρμογή σε Java, ενώ η ποιότητα του παραγόμενου κώδικα αξιολογήθηκε με **SonarQube**.
+## 📘 Abstract
+This study compares the use of Large Language Models (LLMs) — **GPT-4**, **Claude Sonnet**, and **Gemini** — for automated software development in two architectures: **monolithic** and **microservices**.  
+Each model created a REST API application in Java, and the quality of the generated code was evaluated using **SonarQube**.
 
 ---
 
-## ⚙️ Τεχνολογίες
+## ⚙️ Technologies
 - Java / Spring Boot  
 - REST APIs  
 - Docker  
@@ -18,17 +18,17 @@
 
 ---
 
-## 🧩 Μεθοδολογία
-1. Ανάθεση σε κάθε LLM να υλοποιήσει την ίδια REST API εφαρμογή.  
-2. Δύο εκδόσεις ανά μοντέλο: **Monolithic** και **Microservices**.  
-3. Αξιολόγηση με βάση:
-   - Καθαρότητα & οργάνωση κώδικα  
-   - Διαχείριση σφαλμάτων  
-   - Μετρικές SonarQube  
-   - Ταχύτητα ανάπτυξης  
+## 🧩 Methodology
+1. Each LLM was tasked with implementing the same REST API application.  
+2. Two versions per model: **Monolithic** and **Microservices**.  
+3. Evaluation based on:
+   - Code cleanliness & organization  
+   - Error handling  
+   - SonarQube metrics  
+   - Development speed  
 
 ---
 
-## 📊 Αποτελέσματα
-- Τα LLMs απέδωσαν **καλύτερα στις μονολιθικές υλοποιήσεις**.  
-- Η **διάσπαση υπηρεσιών** στις microservices υλοποιήσεις δημιούργησε προκλήσεις.  
+## 📊 Results
+- The LLMs performed **better with monolithic implementations**.  
+- **Service decomposition** in microservices implementations created challenges.
